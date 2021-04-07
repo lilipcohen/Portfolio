@@ -1,0 +1,27 @@
+.background {
+  background-color: rgb(255, 224, 214);
+  width: 80%;
+  height: 800px;
+  float: right;
+}
+
+img {
+  margin-top: 50px;
+  max-width: 60%;
+  max-height: 1000px;
+  margin-left: 10%;
+}
+
+h1 {
+  margin-left: 15%;
+}
+
+h2 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  float: right;
+  margin-right: 25%;
+  margin-top: 10%;
+  font-size: large;
+  color: rgb(50, 131, 86);
+}
