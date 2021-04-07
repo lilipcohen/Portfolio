@@ -13,7 +13,9 @@ function Home() {
         <p>
           I'm a Full-Stack Web Developer located in Los Angeles, California.
         </p>
-        <div></div>
+        <div>
+          <a></a>
+        </div>
       </div>
     </div>
   );
