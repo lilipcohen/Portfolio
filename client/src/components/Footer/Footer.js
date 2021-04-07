@@ -22,6 +22,7 @@ const Footer = () => {
             <li className="green">lili.cohen.tv@gmail.com</li>
           </ul>
         </div>
+        <br></br>
         <div className="row">
           <div className="col-sm-12">
             <a
