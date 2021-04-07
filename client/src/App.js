@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Wrapper from './components/Wrapper';
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/contact" component={Contact} /> */}
         </Wrapper>
       </Router>
+      <Footer />
     </div>
   );
 }

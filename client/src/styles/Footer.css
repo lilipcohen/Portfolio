@@ -1,0 +1,35 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+li:hover {
+  cursor: pointer;
+}
+
+footer img {
+  margin: 0px 20px 0px 0px;
+  max-width: 50px;
+}
+.green {
+  color: rgb(44, 117, 77);
+  margin-top: 35px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 0px;
+  margin: 20px;
+  opacity: 0.3;
+}

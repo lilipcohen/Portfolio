@@ -2,23 +2,39 @@ import React from 'react';
 import profileImg from '../../images/profile.png';
 import '../../styles/Home.css';
 
-function Home() {
+const Home = () => {
   return (
     <div>
-      <br></br>
-      <h1>Lili Cohen</h1>
-      <div className="background">
-        <img src={profileImg} alt="Profile Photo" />
-        <h2>Full-Stack Web Developer</h2>
-        <p>
-          I'm a Full-Stack Web Developer located in Los Angeles, California.
-        </p>
-        <div>
-          <a></a>
+      <div className="">
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className="row">
+          <h1>LILI COHEN</h1>
+        </div>
+        <div className="row">
+          <div className="background">
+            <div className="row">
+              <img src={profileImg} alt="Profile Photo" />
+              <h2>Full-Stack Web Developer</h2>
+            </div>
+            <div className="row">
+              <p>
+                I'm a Fullstack Web Developer & Designer based in Los Angeles,
+                California.
+              </p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;
