@@ -10,6 +10,10 @@ function Home() {
       <div className="background">
         <img src={profileImg} alt="Profile Photo" />
         <h2>Full-Stack Web Developer</h2>
+        <p>
+          I'm a Full-Stack Web Developer located in Los Angeles, California.
+        </p>
+        <div></div>
       </div>
     </div>
   );
