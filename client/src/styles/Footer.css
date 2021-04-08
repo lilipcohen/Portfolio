@@ -14,8 +14,13 @@ li {
   list-style: none;
   margin-bottom: 15px;
 }
-li:hover {
-  cursor: pointer;
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: rgb(44, 117, 77);
 }
 
 footer img {

@@ -14,9 +14,15 @@ const Footer = () => {
         <br></br>
         <div className="row">
           <ul className="col-sm-5">
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li>
+              <a href="/home">Home</a>
+            </li>
+            <li>
+              <a href="/home">Portfolio</a>
+            </li>
+            <li>
+              <a href="/home">Contact</a>
+            </li>
           </ul>
           <ul className="col-sm-7">
             <li className="green">lili.cohen.tv@gmail.com</li>
