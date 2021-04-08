@@ -37,39 +37,35 @@ function Nav() {
     );
   } else {
     return (
-      <div className="nav">
+      <div className="cont">
         <ul>
-          <li className="nav-item nav-tabs">
+          <li className="item tabs">
             <Link
               to="/contact"
               className={
-                window.location.pathname === '/contact'
-                  ? 'nav-link active'
-                  : 'nav-link'
+                window.location.pathname === '/contact' ? 'link active' : 'link'
               }
             >
               Contact
             </Link>
           </li>
-          <li className="nav-item nav-tabs">
+          <li className="item tabs">
             <Link
               to="/portfolio"
               className={
                 window.location.pathname === '/portfolio'
-                  ? 'nav-link active'
-                  : 'nav-link'
+                  ? 'link active'
+                  : 'link'
               }
             >
               Portfolio
             </Link>
           </li>
-          <li className="nav-item nav-tabs">
+          <li className="item tabs">
             <Link
               to="/home"
               className={
-                window.location.pathname === '/home'
-                  ? 'nav-link active'
-                  : 'nav-link'
+                window.location.pathname === '/home' ? 'link active' : 'link'
               }
             >
               Lili Cohen
