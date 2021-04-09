@@ -2,6 +2,7 @@ import React from 'react';
 import lauraPreview from '../../images/laura-preview.png';
 import nwvPreview from '../../images/nw-veg.png';
 import griffinPreview from '../../images/griffin-oskar.png';
+import { Link } from 'react-router-dom';
 import '../../styles/Portfolio.css';
 
 const Portfolio = () => {
@@ -12,9 +13,9 @@ const Portfolio = () => {
       <br></br>
       <div className="">
         <div className="row">
-          <h1>PROJECTS</h1>
+          <h1 className="h1">PROJECTS</h1>
         </div>
-        <div className="backgroundPort">
+        <div className="background">
           <br></br>
           <br></br>
           <br></br>
@@ -39,7 +40,12 @@ const Portfolio = () => {
               </p>
               <br></br>
               <button>
-                <a href="">View Details</a>
+                <Link
+                  to="/lauracullen"
+                  className={window.location.pathname === '/lauracullen'}
+                >
+                  View Details
+                </Link>
               </button>
             </div>
           </div>
@@ -67,7 +73,12 @@ const Portfolio = () => {
               </p>
               <br></br>
               <button>
-                <a href="">View Details</a>
+                <Link
+                  to="/northwestveg"
+                  className={window.location.pathname === '/northwestveg'}
+                >
+                  View Details
+                </Link>
               </button>
             </div>
           </div>
@@ -96,7 +107,12 @@ const Portfolio = () => {
               </p>
               <br></br>
               <button>
-                <a href="">View Details</a>
+                <Link
+                  to="/griffinoskar"
+                  className={window.location.pathname === '/griffinoskar'}
+                >
+                  View Details
+                </Link>
               </button>
             </div>
           </div>

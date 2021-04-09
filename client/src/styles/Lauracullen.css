@@ -1,0 +1,20 @@
+.titleL {
+  font-size: 80px;
+  text-align: center;
+}
+
+.background {
+  background-color: rgb(252, 226, 218);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 95%;
+  max-width: 90%;
+  max-height: 3000px;
+}
+
+#imgPage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

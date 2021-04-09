@@ -9,14 +9,14 @@
   max-height: 3000px;
 }
 
-img {
+#imgHome {
   margin-top: 150px;
   max-width: 60%;
   max-height: 1000px;
   margin-left: 8%;
 }
 
-h1 {
+.h1 {
   margin-left: 70%;
   font-size: 60px;
 }

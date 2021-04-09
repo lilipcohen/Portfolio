@@ -9,12 +9,12 @@ const Home = () => {
       <br></br>
       <br></br>
       <div className="row">
-        <h1>LILI COHEN</h1>
+        <h1 className="h1">LILI COHEN</h1>
       </div>
       <div className="row">
         <div className="background">
           <div className="row">
-            <img src={profileImg} alt="Profile Photo" />
+            <img id="imgHome" src={profileImg} alt="Profile Photo" />
             <h2>Full-Stack Web Developer</h2>
           </div>
           <div className="row">

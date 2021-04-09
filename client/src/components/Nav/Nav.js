@@ -9,9 +9,11 @@ function Nav() {
   ) {
     return (
       <div className="cont">
+        <div></div>
         <ul>
           <li className="item tabs">
             <Link
+              id="underline"
               to="/contact"
               className={
                 window.location.pathname === '/contact' ? 'link active' : 'link'
@@ -22,6 +24,7 @@ function Nav() {
           </li>
           <li className="item tabs">
             <Link
+              id="underline"
               to="/portfolio"
               className={
                 window.location.pathname === '/portfolio'
@@ -38,40 +41,47 @@ function Nav() {
   } else {
     return (
       <div className="cont">
-        <ul>
-          <li className="item tabs">
-            <Link
-              to="/contact"
-              className={
-                window.location.pathname === '/contact' ? 'link active' : 'link'
-              }
-            >
-              Contact
-            </Link>
-          </li>
-          <li className="item tabs">
-            <Link
-              to="/portfolio"
-              className={
-                window.location.pathname === '/portfolio'
-                  ? 'link active'
-                  : 'link'
-              }
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="item tabs">
-            <Link
-              to="/home"
-              className={
-                window.location.pathname === '/home' ? 'link active' : 'link'
-              }
-            >
-              Lili Cohen
-            </Link>
-          </li>
-        </ul>
+        <div className="row">
+          <ul>
+            <li className="item tabs">
+              <Link
+                id="underline"
+                to="/contact"
+                className={
+                  window.location.pathname === '/contact'
+                    ? 'link active'
+                    : 'link'
+                }
+              >
+                Contact
+              </Link>
+            </li>
+            <li className="item tabs">
+              <Link
+                id="underline"
+                to="/portfolio"
+                className={
+                  window.location.pathname === '/portfolio'
+                    ? 'link active'
+                    : 'link'
+                }
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className="item tabs">
+              <Link
+                id="underline"
+                to="/home"
+                className={
+                  window.location.pathname === '/home' ? 'link active' : 'link'
+                }
+              >
+                Lili Cohen
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
