@@ -39,7 +39,7 @@ const Portfolio = () => {
                 her career.
               </p>
               <br></br>
-              <button>
+              <button id="btnP">
                 <Link
                   to="/lauracullen"
                   className={window.location.pathname === '/lauracullen'}
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 view recipes they may enjoy and encourage the vegan diet.
               </p>
               <br></br>
-              <button>
+              <button id="btnP">
                 <Link
                   to="/northwestveg"
                   className={window.location.pathname === '/northwestveg'}
@@ -106,7 +106,7 @@ const Portfolio = () => {
                 musical career.
               </p>
               <br></br>
-              <button>
+              <button id="btnP">
                 <Link
                   to="/griffinoskar"
                   className={window.location.pathname === '/griffinoskar'}
