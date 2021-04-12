@@ -38,7 +38,11 @@ const Portfolio = () => {
                 her career.
               </p>
               <br></br>
-              <button id="btnP"></button>
+              <button id="btnP">
+                <a target="_blank" href="https://laura-cullen.herokuapp.com/">
+                  Visit website
+                </a>
+              </button>
             </div>
           </div>
           <br></br>
@@ -64,7 +68,11 @@ const Portfolio = () => {
                 view recipes they may enjoy and encourage the vegan diet.
               </p>
               <br></br>
-              <button id="btnP"></button>
+              <button id="btnP">
+                <a target="_blank" href="https://northwest-veg.herokuapp.com/">
+                  Visit website
+                </a>
+              </button>
             </div>
           </div>
           <br></br>
@@ -78,7 +86,7 @@ const Portfolio = () => {
               <img
                 id="imgPort"
                 src={griffinPreview}
-                alt="Laura Cullen Homepage"
+                alt="Griffin Oskar Homepage"
               />
             </div>
             <div className="col-sm-5">
@@ -91,7 +99,14 @@ const Portfolio = () => {
                 musical career.
               </p>
               <br></br>
-              <button id="btnP"></button>
+              <button id="btnP">
+                <a
+                  target="_blank"
+                  href="https://lilipcohen.github.io/Griffin-Oskar/"
+                >
+                  Visit website
+                </a>
+              </button>
             </div>
           </div>
           <br></br>
