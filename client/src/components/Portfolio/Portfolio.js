@@ -2,7 +2,6 @@ import React from 'react';
 import lauraPreview from '../../images/laura-preview.png';
 import nwvPreview from '../../images/nw-veg.png';
 import griffinPreview from '../../images/griffin-oskar.png';
-import { Link } from 'react-router-dom';
 import '../../styles/Portfolio.css';
 
 const Portfolio = () => {
@@ -39,14 +38,7 @@ const Portfolio = () => {
                 her career.
               </p>
               <br></br>
-              <button id="btnP">
-                <Link
-                  to="/lauracullen"
-                  className={window.location.pathname === '/lauracullen'}
-                >
-                  View Details
-                </Link>
-              </button>
+              <button id="btnP"></button>
             </div>
           </div>
           <br></br>
@@ -72,14 +64,7 @@ const Portfolio = () => {
                 view recipes they may enjoy and encourage the vegan diet.
               </p>
               <br></br>
-              <button id="btnP">
-                <Link
-                  to="/northwestveg"
-                  className={window.location.pathname === '/northwestveg'}
-                >
-                  View Details
-                </Link>
-              </button>
+              <button id="btnP"></button>
             </div>
           </div>
           <br></br>
@@ -106,14 +91,7 @@ const Portfolio = () => {
                 musical career.
               </p>
               <br></br>
-              <button id="btnP">
-                <Link
-                  to="/griffinoskar"
-                  className={window.location.pathname === '/griffinoskar'}
-                >
-                  View Details
-                </Link>
-              </button>
+              <button id="btnP"></button>
             </div>
           </div>
           <br></br>
