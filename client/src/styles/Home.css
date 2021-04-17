@@ -35,3 +35,71 @@ p {
   margin: 50px 0px 0px 80px;
   font-size: larger;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+/* Large screens ----------- */
+@media only screen and (max-width: 1824px) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width: 1224px) {
+}
+
+@media only screen and (max-width: 1035px) {
+  .h1 {
+    margin-left: 65%;
+  }
+  h2 {
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (max-width: 859px) {
+  .h1 {
+    font-size: 60px;
+    margin-left: 55%;
+  }
+  h2 {
+    margin-top: 18%;
+  }
+  p {
+    margin: 45px 0px 0px 60px;
+    font-size: large;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 768px) {
+  .h1 {
+    margin-left: 50%;
+  }
+  h2 {
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 694px) {
+  h2 {
+    margin-right: 20%;
+    margin-top: 20%;
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  .h1 {
+    font-size: 50px;
+    margin-left: 50%;
+  }
+  h2 {
+    margin-right: 20%;
+    margin-top: 28%;
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 320px) and (max-width: 480px) {
+  .h1 {
+    margin-left: 35%;
+  }
+}

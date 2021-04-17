@@ -10,12 +10,12 @@ function Nav() {
           <li className="item tabs">
             <Link
               id="underline"
-              to="/contact"
+              to="/home"
               className={
-                window.location.pathname === '/contact' ? 'link active' : 'link'
+                window.location.pathname === '/home' ? 'link active' : 'link'
               }
             >
-              Contact
+              Home
             </Link>
           </li>
           <li className="item tabs">
@@ -29,17 +29,6 @@ function Nav() {
               }
             >
               Portfolio
-            </Link>
-          </li>
-          <li className="item tabs">
-            <Link
-              id="underline"
-              to="/home"
-              className={
-                window.location.pathname === '/home' ? 'link active' : 'link'
-              }
-            >
-              Home
             </Link>
           </li>
         </ul>

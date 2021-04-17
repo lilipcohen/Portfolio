@@ -18,10 +18,7 @@ const Footer = () => {
               <a href="/home">Home</a>
             </li>
             <li>
-              <a href="/home">Portfolio</a>
-            </li>
-            <li>
-              <a href="/home">Contact</a>
+              <a href="/portfolio">Portfolio</a>
             </li>
           </ul>
           <ul className="col-sm-7">

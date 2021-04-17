@@ -12,7 +12,7 @@ const Portfolio = () => {
       <br></br>
       <div className="">
         <div className="row">
-          <h1 className="h1">PROJECTS</h1>
+          <h1 className="h1P">PROJECTS</h1>
         </div>
         <div className="background">
           <br></br>
