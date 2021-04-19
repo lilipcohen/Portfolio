@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import linkedin from '../../images/linkedin-icon.png';
 import github from '../../images/github-icon.png';
 import resume from '../../images/resume-icon.png';
@@ -15,10 +15,14 @@ const Footer = () => {
         <div className="row">
           <ul className="col-sm-5">
             <li>
-              <a href="/">Home</a>
+              <Link to="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <Link to="/portfolio">
+                <a>Portfolio</a>
+              </Link>
             </li>
           </ul>
           <ul className="col-sm-7">
