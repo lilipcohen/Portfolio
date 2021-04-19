@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/badge/license-MIT-green)
 
-<a href="https://lilipcohen.github.io/react-directory/">Click here to see it in action.</a>
+<a href="https://lilipcohen.github.io/Portfolio/">Click here to see it in action.</a>
 
 ## Table of Contents
 
