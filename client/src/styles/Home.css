@@ -103,4 +103,8 @@ p {
   .h1 {
     margin-left: 35%;
   }
+
+  #imgHome {
+    height: 200px;
+  }
 }
