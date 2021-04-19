@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="row">
           <ul className="col-sm-5">
             <li>
-              <a href="/home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a href="/portfolio">Portfolio</a>

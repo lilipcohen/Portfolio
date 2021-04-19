@@ -10,9 +10,9 @@ function Nav() {
           <li className="item tabs">
             <Link
               id="underline"
-              to="/home"
+              to="/"
               className={
-                window.location.pathname === '/home' ? 'link active' : 'link'
+                window.location.pathname === '/' ? 'link active' : 'link'
               }
             >
               Home
