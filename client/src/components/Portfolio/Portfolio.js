@@ -21,7 +21,7 @@ const Portfolio = () => {
           <br></br>
           <br></br>
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-7">
               <img
                 id="imgPort"
                 src={lauraPreview}
@@ -29,20 +29,22 @@ const Portfolio = () => {
               />
             </div>
             <div className="col-sm-5">
-              <h3 className="title">Laura Cullen</h3>
-              <br></br>
-              <p className="text">
-                A simple portfolio website showcasing Laura Cullen's work as a
-                mixed-media artist. Her page works to connect personally and
-                artistically with its users and build relationships to further
-                her career.
-              </p>
-              <br></br>
-              <button id="btnP">
-                <a target="_blank" href="https://laura-cullen.herokuapp.com/">
-                  Visit website
-                </a>
-              </button>
+              <div className="columns">
+                <h3 className="title">Laura Cullen</h3>
+                <br></br>
+                <p className="text">
+                  A simple portfolio website showcasing Laura Cullen's work as a
+                  mixed-media artist. Her page works to connect personally and
+                  artistically with its users and build relationships to further
+                  her career.
+                </p>
+                <br></br>
+                <button id="btnP">
+                  <a target="_blank" href="https://laura-cullen.herokuapp.com/">
+                    Visit website
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
           <br></br>
@@ -52,7 +54,7 @@ const Portfolio = () => {
           <br></br>
           <br></br>
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-7">
               <img
                 id="imgPort"
                 src={nwvPreview}
@@ -60,19 +62,25 @@ const Portfolio = () => {
               />
             </div>
             <div className="col-sm-5">
-              <h3 className="title">North West Veg</h3>
-              <br></br>
-              <p className="text">
-                A vegan-based recipe Application featuring North-West Veg as the
-                center of eating vegan and healthy. The site allows clients to
-                view recipes they may enjoy and encourage the vegan diet.
-              </p>
-              <br></br>
-              <button id="btnP">
-                <a target="_blank" href="https://northwest-veg.herokuapp.com/">
-                  Visit website
-                </a>
-              </button>
+              <div className="columns">
+                <h3 className="title">North West Veg</h3>
+                <br></br>
+                <p className="text">
+                  A vegan-based recipe Application featuring North-West Veg as
+                  the center of eating vegan and healthy. The site allows
+                  clients to view recipes they may enjoy and encourage the vegan
+                  diet.
+                </p>
+                <br></br>
+                <button id="btnP">
+                  <a
+                    target="_blank"
+                    href="https://northwest-veg.herokuapp.com/"
+                  >
+                    Visit website
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
           <br></br>
@@ -82,7 +90,7 @@ const Portfolio = () => {
           <br></br>
           <br></br>
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-7">
               <img
                 id="imgPort"
                 src={griffinPreview}
@@ -90,23 +98,25 @@ const Portfolio = () => {
               />
             </div>
             <div className="col-sm-5">
-              <h3 className="title">Griffin Oskar</h3>
-              <br></br>
-              <p className="text">
-                A one-stop shop website for fans and potential management to
-                view the muciscal artist Griffin Oskar. With his website,
-                Griffin will potentially grow in popularity and enhance his
-                musical career.
-              </p>
-              <br></br>
-              <button id="btnP">
-                <a
-                  target="_blank"
-                  href="https://lilipcohen.github.io/Griffin-Oskar/"
-                >
-                  Visit website
-                </a>
-              </button>
+              <div className="columns">
+                <h3 className="title">Griffin Oskar</h3>
+                <br></br>
+                <p className="text">
+                  A one-stop shop website for fans and potential management to
+                  view the muciscal artist Griffin Oskar. With his website,
+                  Griffin will potentially grow in popularity and enhance his
+                  musical career.
+                </p>
+                <br></br>
+                <button id="btnP">
+                  <a
+                    target="_blank"
+                    href="https://lilipcohen.github.io/Griffin-Oskar/"
+                  >
+                    Visit website
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
           <br></br>

@@ -20,16 +20,11 @@
 }
 
 #imgPort {
-  max-width: 500px;
+  max-width: 100%;
   height: 400px;
-  margin: 0px 0px 10px 100px;
+  margin-left: 20px;
   padding: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#imgPort:hover {
-  filter: brightness(50%);
-  cursor: pointer;
 }
 
 #btnP {
@@ -50,5 +45,46 @@ button a:hover {
 }
 
 button:hover {
-  background-color: rgb(57, 146, 97);
+  background-color: rgb(70, 165, 113);
+}
+
+@media only screen and (max-width: 1035px) {
+  .h1P {
+    margin-left: 65%;
+  }
+}
+
+@media only screen and (max-width: 859px) {
+  .h1P {
+    font-size: 60px;
+    margin-left: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .h1P {
+    margin-left: 50%;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  .h1P {
+    font-size: 50px;
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 573px) {
+  #imgPort {
+    max-width: 90%;
+  }
+  .columns {
+    margin: 20px 0px 0px 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) and (max-width: 480px) {
+  .h1 {
+    margin-left: 35%;
+  }
 }
