@@ -14,9 +14,9 @@ function App() {
           <Nav />
           <Route exact path={['/', '/home']} component={Home} />
           <Route path="/portfolio" component={Portfolio} />
+          <Footer />
         </Wrapper>
       </Router>
-      <Footer />
     </div>
   );
 }
