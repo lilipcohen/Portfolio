@@ -88,4 +88,7 @@ button:hover {
   .h1 {
     margin-left: 35%;
   }
+  .title {
+    text-align: center;
+  }
 }
