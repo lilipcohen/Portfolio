@@ -2,7 +2,7 @@
   background-color: rgb(252, 226, 218);
   min-width: 95%;
   max-width: 90%;
-  max-height: 3000px;
+  max-height: 4000px;
 }
 .h1P {
   margin-left: 70%;
@@ -20,6 +20,7 @@
 }
 
 #imgPort {
+  min-width: 90%;
   max-width: 100%;
   height: 400px;
   margin-left: 20px;

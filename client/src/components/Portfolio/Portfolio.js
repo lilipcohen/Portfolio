@@ -1,5 +1,6 @@
 import React from 'react';
 import lauraPreview from '../../images/laura-preview.png';
+import dhPreview from '../../images/dark-horse.png';
 import nwvPreview from '../../images/nw-veg.png';
 import griffinPreview from '../../images/griffin-oskar.png';
 import '../../styles/Portfolio.css';
@@ -41,6 +42,38 @@ const Portfolio = () => {
                 <br></br>
                 <button id="btnP">
                   <a target="_blank" href="https://laura-cullen.herokuapp.com/">
+                    Visit website
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="row">
+            <div className="col-sm-7">
+              <img id="imgPort" src={dhPreview} alt="Dark Horse Homepage" />
+            </div>
+            <div className="col-sm-5">
+              <div className="columns">
+                <h3 className="title">Dark Horse</h3>
+                <br></br>
+                <p className="text">
+                  An application to connect small, upcoming musicians to their
+                  fans. Users help crowfund their favorite new bands to play in
+                  areas near them creating more profit for the bands and help
+                  build their fanbase through their live performances.
+                </p>
+                <br></br>
+                <button id="btnP">
+                  <a
+                    target="_blank"
+                    href="http://darkhorsetours.herokuapp.com/"
+                  >
                     Visit website
                   </a>
                 </button>
