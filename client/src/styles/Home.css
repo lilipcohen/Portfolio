@@ -105,7 +105,7 @@ p {
   }
 
   #imgHome {
-    max-height: 20%;
-    max-width: 50%;
+    height: 30%;
+    width: 50%;
   }
 }
