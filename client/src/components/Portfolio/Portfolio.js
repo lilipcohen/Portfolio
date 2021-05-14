@@ -37,7 +37,14 @@ const Portfolio = () => {
                   A simple portfolio website showcasing Laura Cullen's work as a
                   mixed-media artist. Her page works to connect personally and
                   artistically with its users and build relationships to further
-                  her career.
+                  her career. This MERN stack application uses Firebase.js, AWS, MongoDB, and Bootstrap frameworks. Click&nbsp;
+                  <a
+                    target="_blank"
+                    href="https://github.com/lilipcohen/Laura-Cullen"
+                  >
+                    here
+                  </a>
+                  &nbsp;to view the Github repo.
                 </p>
                 <br></br>
                 <button id="btnP">
@@ -66,7 +73,16 @@ const Portfolio = () => {
                   An application to connect small, upcoming musicians to their
                   fans. Users help crowfund their favorite new bands to play in
                   areas near them creating more profit for the bands and help
-                  build their fanbase through their live performances.
+                  build their fanbase through their live performances. This
+                  application uses MERN stack, it includes Firebase.js,
+                  Leaflet API, and Bootstrap frameworks. Click&nbsp;
+                  <a
+                    target="_blank"
+                    href="https://github.com/lilipcohen/Dark-Horse"
+                  >
+                    here
+                  </a>
+                  &nbsp;to view the Github repo.
                 </p>
                 <br></br>
                 <button id="btnP">
@@ -102,7 +118,14 @@ const Portfolio = () => {
                   A vegan-based recipe Application featuring North-West Veg as
                   the center of eating vegan and healthy. The site allows
                   clients to view recipes they may enjoy and encourage the vegan
-                  diet.
+                  diet. This application uses MVC, Express.js, Edamam API, and Bootstrap frameworks. Click&nbsp;
+                  <a
+                    target="_blank"
+                    href="https://github.com/lilipcohen/Northwest-Veg"
+                  >
+                    here
+                  </a>
+                  &nbsp;to view the Github repo.
                 </p>
                 <br></br>
                 <button id="btnP">
@@ -138,7 +161,14 @@ const Portfolio = () => {
                   A one-stop shop website for fans and potential management to
                   view the muciscal artist Griffin Oskar. With his website,
                   Griffin will potentially grow in popularity and enhance his
-                  musical career.
+                  musical career. This simple application uses HTML, CSS, Javascript, and the bandsintown API. Click&nbsp;
+                  <a
+                    target="_blank"
+                    href="https://github.com/lilipcohen/Griffin-Oskar"
+                  >
+                    here
+                  </a>
+                  &nbsp;to view the Github repo.
                 </p>
                 <br></br>
                 <button id="btnP">
