@@ -177,7 +177,7 @@ const Portfolio = () => {
                 <button id="btnP">
                   <a
                     target="_blank"
-                    href="https://lilipcohen.github.io/Griffin-Oskar/"
+                    href="https://griffin-oskar.herokuapp.com/"
                   >
                     Visit website
                   </a>
