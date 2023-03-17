@@ -3,6 +3,7 @@ import lauraPreview from '../../images/laura-preview.png';
 import dhPreview from '../../images/dark-horse.png';
 import nwvPreview from '../../images/nw-veg.png';
 import griffinPreview from '../../images/griffin-oskar.png';
+import scasPreview from '../../images/scas.png';
 import '../../styles/Portfolio.css';
 
 const Portfolio = () => {
@@ -16,6 +17,39 @@ const Portfolio = () => {
           <h1 className="h1P">PROJECTS</h1>
         </div>
         <div className="background">
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="row">
+            <div className="col-sm-7">
+              <img
+                id="imgPort"
+                src={scasPreview}
+                alt="Southern California Academy of Sciences"
+              />
+            </div>
+            <div className="col-sm-5">
+              <div className="columns">
+                <h3 className="title">SCAS</h3>
+                <br></br>
+                <p className="text">
+                A headless CMS website for directors of Southern California Academy of Sciences to create, update, and delete content on their frontend website where end users can sign up for their Newsletter, learn about their organization, donate and join their annual meeting.
+                </p>
+                <br></br>
+                <button id="btnP">
+                  <a
+                    target="_blank"
+                    href="https://scas.nhm.org/"
+                  >
+                    Visit website
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <br></br>
           <br></br>
           <br></br>
           <br></br>
