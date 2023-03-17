@@ -19,8 +19,8 @@ const Home = () => {
           </div>
           <div className="row">
             <p className="col-sm-8">
-              I'm a Fullstack Web Developer & Designer based in Los Angeles,
-              California. I enjoy building everything from personal websites to
+              I'm a Fullstack Web Developer & Designer with a background in Ticketing Systems and a valuable member to any team. I excel in a fast paced, high energy and deadline driven environment with a willingness to take on additional tasks.
+              I enjoy building everything from personal websites to
               larger business web apps.
             </p>
             <br></br>
